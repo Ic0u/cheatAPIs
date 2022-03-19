@@ -1,0 +1,19 @@
+(Before doing anything, you will need to launch the exploit. This will check if it's patched, inject the necessary tools, etc. )
+                  
+                 using FluxusAPI;                                 //Download the "FluxusAPI.dll" and make sure you put it in referenced
+                 Fluxus API = new Fluxus();                       //Create a new object and calling the api
+                 API.InitializeFluxus();                          //Auto Update current object ,so you dont need to download the api again. You need to call this is the loads
+                               
+                                                                (MAINS)
+                 API.Inject();                                    //Inject The API Object into "RobloxPlayerBeta.exe" via client           
+                 API.Execute();                                   //Takes in a string and executes the string as a Lua script, I recommend you to use FastColoredTextBox AS THE STRING
+                 API.FluxHub();                                   //Execute Flux Hub into "RobloxPlayerBeta.exe" Client (Fluxus only feature)
+                 API.ChatBypass();                                //Execute Chat Bypass script into "RobloxPlayerBeta.exe" Client (Fluxus only feature) NOTES:you can say cum now !!!
+                 
+                                                               bye kids
+                 
+                 
+                 
+                 
+                 
+                 
